@@ -1,0 +1,285 @@
+/* Стили для темной темы */
+.dark-theme .card {
+    background-color: #1E1E1E;
+    border-color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .card-header {
+    background-color: #252525;
+    border-color: #333;
+    color: #E0E0E0;
+}
+
+.dark-theme .btn-primary {
+    background-color: #4285F4;
+    border-color: #3367D6;
+}
+
+.dark-theme .btn-primary:hover {
+    background-color: #3367D6;
+    border-color: #2A56C6;
+}
+
+.dark-theme .btn-success {
+    background-color: #34A853;
+    border-color: #2E8F49;
+}
+
+.dark-theme .btn-success:hover {
+    background-color: #2E8F49;
+    border-color: #287F40;
+}
+
+/* Стили для дропдаунов в темном режиме */
+.dark-theme .Select-control {
+    background-color: #2D2D2D !important;
+    border-color: #444 !important;
+    color: white !important;
+}
+
+.dark-theme .Select-menu-outer {
+    background-color: #2D2D2D !important;
+    border-color: #444 !important;
+}
+
+.dark-theme .Select-option {
+    background-color: #2D2D2D !important;
+    color: #E0E0E0 !important;
+}
+
+.dark-theme .Select-option.is-focused {
+    background-color: #444 !important;
+}
+
+.dark-theme .Select-value-label {
+    color: #E0E0E0 !important;
+}
+
+/* Стили для dcc.Dropdown в темной теме */
+.dark-theme .dash-dropdown .Select-menu-outer {
+    background-color: #2D2D2D !important;
+    border-color: #444 !important;
+}
+
+.dark-theme .dash-dropdown .Select-menu {
+    background-color: #2D2D2D !important;
+}
+
+.dark-theme .dash-dropdown .Select-option {
+    background-color: #2D2D2D !important;
+    color: #E0E0E0 !important;
+}
+
+.dark-theme .dash-dropdown .VirtualizedSelectOption {
+    background-color: #2D2D2D !important;
+    color: #E0E0E0 !important;
+}
+
+.dark-theme .dash-dropdown .VirtualizedSelectFocusedOption {
+    background-color: #444 !important;
+}
+
+/* Исправление цвета текста в инпутах для темной темы */
+.dark-theme input, 
+.dark-theme .Select-placeholder, 
+.dark-theme .Select--single > .Select-control .Select-value {
+    color: #E0E0E0 !important;
+}
+
+/* Стили для Dash компонентов dcc.Dropdown в темной теме */
+.dark-theme .dash-dropdown .Select-control {
+    background-color: #2D2D2D !important;
+    border-color: #444 !important;
+}
+
+.dark-theme .dash-dropdown .Select-value {
+    color: #E0E0E0 !important;
+}
+
+.dark-theme .dash-dropdown .Select-placeholder {
+    color: #AAAAAA !important;
+}
+
+.dark-theme .dash-dropdown .Select-clear-zone {
+    color: #E0E0E0 !important;
+}
+
+/* Улучшенные стили для DatePicker */
+.dark-theme .SingleDatePickerInput,
+.dark-theme .DateRangePickerInput {
+    background-color: #2D2D2D !important;
+    border-color: #444 !important;
+}
+
+.dark-theme .DateInput_input {
+    background-color: #2D2D2D !important;
+    color: #E0E0E0 !important;
+    border-bottom-color: #444 !important;
+}
+
+.dark-theme .DateInput_input::placeholder {
+    color: #888 !important;
+}
+
+.dark-theme .DayPicker {
+    background-color: #2D2D2D !important;
+}
+
+.dark-theme .CalendarMonth_caption {
+    color: #E0E0E0 !important;
+}
+
+/* Стили для шапки сайта в темном режиме */
+.dark-theme .navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
+    background-color: #1A1A1A !important;
+}
+
+/* Улучшенный стиль для переключателя темы */
+.toggle-dark-mode {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 4px 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.toggle-dark-mode .form-check-label {
+    font-size: 1.2rem;
+    margin: 0 4px;
+    transition: transform 0.2s ease;
+}
+
+.toggle-dark-mode .form-check-input:checked + .form-check-label {
+    transform: scale(1.5);
+}
+
+.toggle-dark-mode .form-check-input {
+    display: none;
+}
+
+.dark-theme .toggle-dark-mode {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), inset 0 0 3px rgba(255, 255, 255, 0.2);
+}
+
+/* Плавные переходы для анимации */
+.card, .btn, .alert, .table, .navbar {
+    transition: all 0.3s ease;
+}
+
+/* Стиль таблицы для информации */
+.dark-theme .table {
+    color: #E0E0E0;
+    background-color: #1E1E1E;
+    border-color: #333;
+}
+
+.dark-theme .table thead th {
+    background-color: #252525;
+    border-color: #444;
+}
+
+.dark-theme .table td, .dark-theme .table th {
+    border-color: #444;
+}
+
+.dark-theme .table-hover tbody tr:hover {
+    background-color: #2D2D2D;
+}
+
+/* Специфичные стили для таблицы на странице информации */
+.dark-theme #info-table {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
+
+.dark-theme #info-table thead th {
+    background-color: #252525;
+    border-color: #444;
+    color: #E0E0E0;
+}
+
+.dark-theme #info-table.table-dark {
+    background-color: #1E1E1E; 
+    color: #E0E0E0;
+}
+
+/* Стили для всплывающих сообщений */
+.dark-theme .toast {
+    background-color: #2D2D2D !important;
+    color: #E0E0E0 !important;
+}
+
+/* Анимация для графиков при загрузке */
+.js-plotly-plot .plotly .svg-container {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* Стилизация полосы прокрутки для темного режима */
+.dark-theme ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.dark-theme ::-webkit-scrollbar-track {
+    background: #1E1E1E;
+}
+
+.dark-theme ::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 5px;
+}
+
+.dark-theme ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Стили для ссылок */
+.dark-theme a {
+    color: #8AB4F8;
+    transition: color 0.3s ease;
+}
+
+.dark-theme a:hover {
+    color: #4285F4;
+    text-decoration: none;
+}
+
+/* Исправление цветовых проблем в темном режиме */
+.dark-theme label, .dark-theme p, .dark-theme h1, 
+.dark-theme h2, .dark-theme h3, .dark-theme h4, 
+.dark-theme h5, .dark-theme h6, .dark-theme li {
+    color: #E0E0E0 !important;
+}
+
+.dark-theme .form-control {
+    background-color: #2D2D2D;
+    border-color: #444;
+    color: #E0E0E0;
+}
+
+.dark-theme .form-control:focus {
+    background-color: #333;
+    color: #FFF;
+    border-color: #4285F4;
+    box-shadow: 0 0 0 0.25rem rgba(66, 133, 244, 0.25);
+}
+
+/* Фиксированная шапка с тенью */
+.navbar.fixed-top {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+/* Активный пункт меню */
+.navbar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+} 
